@@ -77,24 +77,26 @@
 						<OverflowToolbar id="all-list-bar">
 							<Title
 								id="all-bar-info"
-								text="{i18n>SAP BTP Services}"
+								text="{i18n>SAPBTPServices}"
 								level="H4"
 							/>
 							<ToolbarSpacer id="all-bar-spacer"/>
 							<SearchField
 								id="all-bar-search"
 								width="60%"
-								placeholder="{i18n>Search for the name or description}"
+								placeholder="{i18n>SearchforTheNameOrDescription}"
 								liveChange=".liveSearch"
 							/>
 						</OverflowToolbar>
 					</headerToolbar>
 					<StandardListItem
+						id="BTP_Service_list"
 						title="{sample>name}"
 						description="{sample>description}"
 						infoState="Information"
 						icon="{sample>icon}"
 						info="{sample>category}"
+						iconDensityAware="false"
 					/>
 				</List>
 			</ScrollContainer>
